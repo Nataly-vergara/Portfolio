@@ -18,14 +18,12 @@ a {
     overflow: auto;
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
     background-color: #FFFFFF;
+    overflow:auto
   }
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  .dropdown.select.closed { 
-      display: none; }
 
-  .dropdown.select.open { display: block; }
   .dropdown-content a {
     display: block;
     color: #000000;
