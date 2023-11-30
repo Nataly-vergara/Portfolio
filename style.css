@@ -22,9 +22,10 @@ a {
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  .dropdown.closed { display: none; }
+  .dropdown.select.closed { 
+      display: none; }
 
-  .dropdown.open { display: block; }
+  .dropdown.select.open { display: block; }
   .dropdown-content a {
     display: block;
     color: #000000;
