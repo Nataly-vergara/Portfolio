@@ -1,37 +1,45 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    
+
     <title>Nataly Vergara</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
     </style>
-</head>
-<body>
-            
-        <header>
-            <nav>
-                <h1>
-                    <a href="../index.html">Nataly Vergara</a>
-                </h1>
-    
-    
-                <div class="dropdown">
-                    <button> ≡ </button>
-                    <div class="dropdown-content">
-                        <a href="index.html">Porfolio</a>
-                        <a href="../About/index.html">About</a>
-                        <a href="../CV/index.html">Resume</a>
-                    </div>
-                </div>
-            </nav>
-    
-        </header>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   
 
-            <br> <hr>
-         <!-- <nav>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h1>
+                <a href="../index.html">Nataly Vergara</a>
+            </h1>
+
+
+            <div class="dropdown">
+                <button> ≡ </button>
+                <div class="dropdown-content">
+                    <a href="index.html" style="text-decoration: none;">Porfolio</a>
+                    <a href="../About/index.html"style="text-decoration: none;">About</a>
+                    <a href="../CV/index.html"style="text-decoration: none;">Resume</a>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <br>
+    <hr>
+    <!-- <nav>
             <p>
             <a href="projects/construstion.html">Construction</a>
             <a href="projects/lanscape.html">Landscapes</a>
@@ -41,71 +49,275 @@
             <a href="projects/collage.html">Collage</a>
         </p>
          </nav> -->
-         <h2>Portfolio</h2>
+    <h2>Portfolio</h2>
 
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">Landscape</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Print</button>
-  <button class="tablinks" onclick="openCity(event, 'Madrid')">Construction</button>  
-  <button class="tablinks" onclick="openCity(event, 'New York')">Deconstuction</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Collage</button>
-  <button class="tablinks" onclick="openCity(event, 'Atlanta')">Coded Collage</button>
-  
-</div>
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'London')">Landscape</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Print</button>
+        <button class="tablinks" onclick="openCity(event, 'Madrid')">Construction</button>
+        <button class="tablinks" onclick="openCity(event, 'New York')">Deconstuction</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Collage</button>
+        <button class="tablinks" onclick="openCity(event, 'Atlanta')">Coded Collage</button>
 
-<div id="London" class="tabcontent">
-  <h3>Landscpae</h3>
-  <img src="images/Vergara_1.jpg" alt="">
-  <p></p>
-</div>
+    </div>
 
-<div id="Paris" class="tabcontent">
-  <h3>Print</h3>
-  <p></p> 
-</div>
+    <div id="London" class="tabcontent">
+        <div class="container">
+            <h2>Landscape</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/Vergara_1.jpg" alt="Los Angeles" style="width: 40%;height: auto;">
+                    </div>
+
+                    <div class="item">
+                        <img src="images/Vergara_2.jpg" alt="Chicago" style="width: 40%;height: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="images/Vergara_6.jpg" alt="Chicago" style="width: 40%;height: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="images/Vergara_5.jpg" alt="Chicago" style="width: 40%;height: auto;">
+                    </div>
+
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="Paris" class="tabcontent">
+        <div class="container">
+            <h2>Print</h2>
+            <div id="myCarousel0" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/Vergara_3.jpg" alt="Los Angeles" style="width: 40%;height: auto;">
+                    </div>
+
+                    <div class="item">
+                        <img src="images/Vergara_4.jpg" alt="Chicago" style="width: 40%;height: auto;">
+                    </div>
+
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel0" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel0" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
 
 
-<div id="Madrid" class="tabcontent">
-    <h3>Construction</h3>
-    <p></p>
-</div>
+    <div id="Madrid" class="tabcontent">
+        <div class="container">
+            <h2>Construct</h2>
+            <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel1" data-slide-to="1"></li>
+                    <li data-target="#myCarousel1" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/Construct.jpg" alt="Los Angeles" style="width: 40%;height: auto;">
+                    </div>
 
-<div id="New York" class="tabcontent">
-    <h3>Deconstruction</h3>
-    <p></p>
-</div>
-<div id="Tokyo" class="tabcontent">
-  <h3>Collage</h3>
-  <p></p>
-</div>
+                    <div class="item">
+                        <img src="images/construct-2.jpg" alt="Chicago" style="width: 40%;height: auto;">
+                    </div>
 
-<div id="Atlanta" class="tabcontent">
-    <h3>Coded Collage</h3>
-    <p></p>
-  </div>
-<script>
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
-   
-         <footer> Nataly Vergara <br>
-             
+                    <div class="item">
+                        <img src="images/construct-3.jpg" alt="New york" style="width: 40%;height: auto;">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel1" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel1" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="New York" class="tabcontent">
+        <div class="container">
+            <h2>Deconstruction</h2>
+            <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel2" data-slide-to="1"></li>
+                    <li data-target="#myCarousel2" data-slide-to="2"></li>
+                    <li data-target="#myCarousel2" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/Vergara_1.jpg" alt="Los Angeles" style="width: 40%;height: auto;">
+                    </div>
+
+                    <div class="item">
+                        <img src="images/Vergara_2.jpg" alt="Chicago" style="width: 40%;height: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="images/Vergara_6.jpg" alt="Chicago" style="width: 40%;height: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="images/Vergara_5.jpg" alt="Chicago" style="width: 40%;height: auto;">
+                    </div>
+
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel2" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="Tokyo" class="tabcontent">
+        <div class="container">
+            <h2>Collage</h2>
+            <div id="myCarousel3" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel3" data-slide-to="1"></li>
+                    <li data-target="#myCarousel3" data-slide-to="2"></li>
+                    <li data-target="#myCarousel3" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/unscripted.jpg" alt="Los Angeles" style="width: 40%;height: auto;">
+                    </div>
+
+                    <div class="item">
+                        <img src="images/FromBelow.jpg" alt="Chicago" style="width: 35%;height: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="images/IMG_7348.jpg" alt="Chicago" style="width: 40%;height: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="images/ObjectPortrait.png" alt="Chicago" style="width: 65%;height: auto;">
+                    </div>
+
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel3" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel3" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="Atlanta" class="tabcontent">
+        <div class="container">
+            <h2>Coded Collage</h2>
+            <div id="myCarousel4" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel4" data-slide-to="1"></li>
+                    <li data-target="#myCarousel4" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/Vergara_1.jpg" alt="Los Angeles" style="width: 40%;height: auto;">
+                    </div>
+
+                    <div class="item">
+                        <img src="images/Vergara_2.jpg" alt="Chicago" style="width: 40%;height: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="images/Vergara_6.jpg" alt="Chicago" style="width: 40%;height: auto;">
+                    </div>
+                    <div class="item">
+                        <img src="images/Vergara_5.jpg" alt="Chicago" style="width: 40%;height: auto;">
+                    </div>
+
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel4" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel4" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+
+    <footer> Nataly Vergara <br>
+
         <a href="tel:+12565295396" style="color: black;"> 256-529-5396</a>
-         <br>
-            
-            natalyv572@gmail.com <br>
-            
-            @_natalyvergara </footer>
+        <br>
+
+        natalyv572@gmail.com <br>
+
+        @_natalyvergara
+    </footer>
 </body>
+
 </html>

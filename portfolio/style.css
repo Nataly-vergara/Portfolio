@@ -1,24 +1,15 @@
 body {min-height: 100vh; min-width: 100vw;
-display: block;}
+display: block;font-family: 'Acme', sans-serif;}
 
 h1 {
     font-size: 250%;
     font-family: 'Acme', sans-serif;
+    color: cadetblue;text-decoration: none;
 }
 a {
     color:cadetblue; text-decoration: none;
 }
 
-p {
-    font-size: 110%;
-}
-img {
-    max-width: 90vw;
-    max-height: 80vh;
-}
-footer {
-    justify-content: baseline;
-}
 .dropdown {
     display: inline-block;
     position: relative;
@@ -83,3 +74,5 @@ footer {
   border: 1px solid #ccc;
   border-top: none;
 }
+
+ 
