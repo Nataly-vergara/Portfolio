@@ -1,11 +1,6 @@
 body {min-height: 100vh; min-width: 100vw;
 display: block;font-family: 'Acme', sans-serif;}
 
-h1 {
-    font-size: 250%;
-    font-family: 'Acme', sans-serif;
-    color: cadetblue;text-decoration: none;
-}
 a {
     color:cadetblue; text-decoration: none;
 }
