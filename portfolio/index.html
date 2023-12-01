@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    // https://www.w3schools.com/howto/howto_js_tabs.asp tabs for projects 
+    
     <title>Nataly Vergara</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
@@ -31,7 +31,7 @@
         </header>
 
             <br> <hr>
-         <nav>
+         <!-- <nav>
             <p>
             <a href="projects/construstion.html">Construction</a>
             <a href="projects/lanscape.html">Landscapes</a>
@@ -40,13 +40,67 @@
             <a href="projects/webdesign.html">Webdesign</a>
             <a href="projects/collage.html">Collage</a>
         </p>
-         </nav>
+         </nav> -->
+         <h2>Portfolio</h2>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">Landscape</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Print</button>
+  <button class="tablinks" onclick="openCity(event, 'Madrid')">Construction</button>  
+  <button class="tablinks" onclick="openCity(event, 'New York')">Deconstuction</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Collage</button>
+  <button class="tablinks" onclick="openCity(event, 'Atlanta')">Coded Collage</button>
+  
+</div>
+
+<div id="London" class="tabcontent">
+  <h3>Landscpae</h3>
+  <img src="images/Vergara_1.jpg" alt="">
+  <p></p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Print</h3>
+  <p></p> 
+</div>
+
+
+<div id="Madrid" class="tabcontent">
+    <h3>Construction</h3>
+    <p></p>
+</div>
+
+<div id="New York" class="tabcontent">
+    <h3>Deconstruction</h3>
+    <p></p>
+</div>
+<div id="Tokyo" class="tabcontent">
+  <h3>Collage</h3>
+  <p></p>
+</div>
+
+<div id="Atlanta" class="tabcontent">
+    <h3>Coded Collage</h3>
+    <p></p>
+  </div>
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
    
          <footer> Nataly Vergara <br>
              
-            2901 Mill Run Rd <br>
-            
-            Huntsville, AL 35763 <br>
         <a href="tel:+12565295396" style="color: black;"> 256-529-5396</a>
          <br>
             
