@@ -9,9 +9,16 @@ a {
     color:cadetblue; text-decoration: none;
 
 }
+p{
+  font-size: 15px;
+}
 div.content-bio {
-    text-align: left;
-    width: 20em;
+  height: 50%;
+    
+}
+div.content-state {
+  height: 50%;
+    
 }
 .dropdown {
     display: inline-block;
