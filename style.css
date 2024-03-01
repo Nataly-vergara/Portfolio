@@ -34,3 +34,7 @@ a {
     color: #FFFFFF;
     background-color: #00A4BD;
   }
+  img {
+    width: 100vw; justify-content: center;
+  }
+ 
